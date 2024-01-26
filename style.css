@@ -1,0 +1,33 @@
+body{
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    font-weight:bold;
+   
+}
+
+.textHov:hover{
+   color: coral;           
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgba(#E27D60, #E8A87C, #e3e0cf, #41B3A3);
+}
+
+/* Adjust the height of carousel images */
+.carousel-item img {
+    max-height: 400px; /* Set the maximum height for the images */
+    width: auto; /* Maintain aspect ratio */
+  }
+
+  .linkss{
+    text-decoration: none;
+    color:rgba(75, 39, 204, 0.917);
+  }
+  .linkss:active{
+    text-decoration: underline;
+    color:coral;
+  }
+
+  .linkss:hover{
+    color:red;
+  }
